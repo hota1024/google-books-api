@@ -4,7 +4,6 @@
     "target": "es5",
     "module": "commonjs",
     "declaration": true,
-    "outDir": "types",
     "types": [
       "webpack"
     ],
@@ -13,5 +12,8 @@
       "~/*": ["src/*"],
       "~": ["src"]
     }
-  }
+  },
+  "exclude": [
+    "test"
+  ]
 }
