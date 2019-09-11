@@ -1,8 +1,9 @@
 {
   "name": "google-books-client",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "webpack",
     "lint": "eslint --ext .js,.ts --ignore-path .gitignore .",
