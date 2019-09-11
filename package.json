@@ -3,7 +3,7 @@
   "version": "0.0.4",
   "description": "",
   "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "types": "lib/src/index.d.ts",
   "scripts": {
     "build": "webpack",
     "lint": "eslint --ext .js,.ts --ignore-path .gitignore .",
