@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
     "sourceMap": true,
-    "target": "es5",
+    "target": "esnext",
     "module": "commonjs",
+    "moduleResolution": "node",
     "declaration": true,
     "outDir": "lib",
     "types": [
