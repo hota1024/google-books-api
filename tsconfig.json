@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "es5",
+    "module": "commonjs",
+    "types": [
+      "webpack"
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "~/*": ["src/*"],
+      "~": ["src"]
+    }
+  }
+}
