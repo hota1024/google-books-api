@@ -1,8 +1,8 @@
-import { Client } from '~/Client'
-import { Volume } from '~/Types/Volume'
-import { VolumeGetParameters } from '~/Types/VolumeGetParameters'
-import { VolumeListParameters } from '~/Types/VolumeListParameters'
-import { VolumeList } from '~/Types/VolumeList'
+import { Client } from '../Client'
+import { Volume } from '../Types/Volume'
+import { VolumeGetParameters } from '../Types/VolumeGetParameters'
+import { VolumeListParameters } from '../Types/VolumeListParameters'
+import { VolumeList } from '../Types/VolumeList'
 
 export class VolumeClient extends Client {
   /**
