@@ -3,6 +3,7 @@
     "sourceMap": true,
     "declaration": true,
     "outFile": "lib/index.js",
+    "esModuleInterop": true,,
     "types": [
       "webpack"
     ],
