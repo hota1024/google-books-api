@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "types": "lib/src/index.d.ts",
   "scripts": {
-    "build": "webpack",
+    "build": "tsc src/index.ts",
     "lint": "eslint --ext .js,.ts --ignore-path .gitignore .",
     "test": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' mocha -r ts-node/register -r tsconfig-paths/register test/**/*.ts"
   },
